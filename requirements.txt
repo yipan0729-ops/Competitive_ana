@@ -1,0 +1,42 @@
+# 自动化竞品分析工具依赖
+
+# 数据源发现
+requests>=2.31.0
+google-api-python-client>=2.100.0  # Google Search API
+# bing-search-api-client>=1.0.0  # 可选
+httpx>=0.25.0  # Serper API
+
+# 数据采集
+firecrawl-py>=0.0.16  # Firecrawl API
+playwright>=1.40.0  # 浏览器自动化
+
+# AI分析
+openai>=1.10.0
+anthropic>=0.8.0  # Claude (可选)
+langchain>=0.1.0
+langchain-openai>=0.0.2
+
+# 数据处理
+pandas>=2.1.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.3
+fuzzywuzzy>=0.18.0
+python-Levenshtein>=0.23.0  # 加速fuzzywuzzy
+
+# 存储
+sqlalchemy>=2.0.23
+
+# 任务调度
+apscheduler>=3.10.4
+
+# Web界面（可选）
+streamlit>=1.29.0
+fastapi>=0.108.0
+uvicorn>=0.25.0
+
+# 工具
+python-dotenv>=1.0.0
+pyyaml>=6.0.1
+jinja2>=3.1.2
+pillow>=10.1.0  # 图片处理
+tqdm>=4.66.1  # 进度条

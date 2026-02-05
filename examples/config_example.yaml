@@ -1,0 +1,40 @@
+# 竞品分析配置文件示例
+
+analysis:
+  name: "在线协作工具竞品分析"
+  date: "2026-02-05"
+  market: "中国"
+
+competitors:
+  - name: "Notion"
+    sources:
+      - type: "官网"
+        urls: 
+          - "https://notion.so"
+          - "https://notion.so/product"
+          - "https://notion.so/pricing"
+      - type: "用户评价"
+        urls:
+          - "https://www.zhihu.com/search?q=Notion"
+      - type: "小红书"
+        keywords: ["Notion", "使用体验"]
+        
+  - name: "飞书"
+    sources:
+      - type: "官网"
+        urls:
+          - "https://www.feishu.cn"
+          - "https://www.feishu.cn/product"
+          - "https://www.feishu.cn/pricing"
+      - type: "用户评价"
+        urls:
+          - "https://www.zhihu.com/search?q=飞书"
+        
+  - name: "语雀"
+    sources:
+      - type: "官网"
+        urls:
+          - "https://www.yuque.com"
+      - type: "用户评价"
+        urls:
+          - "https://www.zhihu.com/search?q=语雀"
